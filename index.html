@@ -7,8 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta description="Уютная гостиница для котов и кошек">
     <title>Котейка</title>
-    <link rel="stylesheet" href="" />
-    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500;700&display=swap" rel="stylesheet">
+    <!-- шрифты подключить архивом -->
+    <link rel="stylesheet" href="pages/index.css" />
 </head>
 
 <body class="root">
@@ -16,22 +20,20 @@
         <header class="header">
             <img class="header__logo" src="images/logo.svg" alt="Логотип">
             <nav class="header__navbar">
-                <ul class="header__links">
-                    <li><a href="#" class="header__link">Почему мы?</a></li>
-                    <li><a href="#" class="header__link">Номера</a></li>
-                    <li><a href="#" class="header__link">Отзывы</a></li>
-                    <li><a href="#" class="header__link">Как нас найти</a></li>
+                <ul class="list header__links">
+                    <li><a href="#" class="text header__link">Почему мы?</a></li>
+                    <li><a href="#" class="text header__link">Номера</a></li>
+                    <li><a href="#" class="text header__link">Отзывы</a></li>
+                    <li><a href="#" class="text header__link">Как нас найти</a></li>
                 </ul>
             </nav>
         </header>
         <section class="banner">
-            <div class="banner__image">
                 <p class="banner__city">Санкт-Петербург</p>
-                <h1 class="banner__title">Котейка</h1>
-                <p class="banner__description">Уютная гостиница для котов и кошек</p>
-                <button type="button" class="banner__button">Забронировать<img class="banner__button-icon"
-                        src="images/paw-button.svg" alt="Иконка кнопки"></button>
-            </div>
+                <h1 class="title banner__title">Котейка</h1>
+                <p class="banner__subtitle">Уютная гостиница для котов и кошек</p>
+                <button type="button" class="text banner__button">Забронировать<img class="banner__button-icon"
+                src="images/paw-button.svg" alt="Иконка кнопки"></button>
         </section>
         <section class="reasons">
             <div class="reasons__paw"></div>
