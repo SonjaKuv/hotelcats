@@ -1,6 +1,10 @@
+* {
+     margin: 0;
+    padding: 0;   
+}
+
 .root {
     color: #1A212F;
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+
 }

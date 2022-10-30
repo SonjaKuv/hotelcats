@@ -2,6 +2,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px 30px;
-    padding: 70px 98px 0;
+    padding: 61px 98px 0;
     position: relative;
 }
