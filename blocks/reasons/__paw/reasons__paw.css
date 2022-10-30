@@ -1,9 +1,9 @@
 .reasons__paw {
-    background-image: url(../../../images/paw1.png);
-    width: 367px;
-    height: 314px;
-    transform: matrix(-0.93, -0.36, -0.36, 0.93, 0, 0);
+    background-image: url(../../../images/paw.svg);
+    width: 337px;
+    height: 414px;
     background-repeat: no-repeat;
     position: absolute;
-    right: -107px;
+    right: 0;
+    top: 545px;
 }

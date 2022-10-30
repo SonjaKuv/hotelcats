@@ -1,0 +1,9 @@
+.rooms__fish {
+    background-image: url(../../../images/fish.svg);
+    width: 484px;
+    height: 151px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 1626px;
+}

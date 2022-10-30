@@ -1,0 +1,11 @@
+.item__about {
+    max-width: 500px;
+    position: absolute;
+    top: 0;
+    right: 168px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 25px rgb(208 208 208 / 25%);
+    border-radius: 8px;
+    padding: 40px 100px;
+    text-align: start;
+}

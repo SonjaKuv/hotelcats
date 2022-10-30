@@ -20,3 +20,16 @@
 
 @import url('../blocks/reasons/reasons.css');
 @import url('../blocks/reasons/__paw/reasons__paw.css');
+
+@import url('../blocks/grid/grid.css');
+@import url('../blocks/grid/__item/grid__item.css');
+@import url('../blocks/grid/__icon/grid__icon.css');
+@import url('../blocks/grid/__title/grid__title.css');
+
+@import url('../blocks/rooms/rooms.css');
+@import url('../blocks/rooms/__fish/rooms__fish.css');
+@import url('../blocks/rooms/__title/rooms__title.css');
+
+@import url('../blocks/item/item.css');
+@import url('../blocks/item/__image/item__image.css');
+@import url('../blocks/item/__about/item__about.css');
