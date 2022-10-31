@@ -1,6 +1,21 @@
 .item__image {
-    width: 600px !important;
+    max-width: 600px;
     height: 404px;
     border-radius: 10px;
-    margin-left: 168px;
+    margin-left: 12.3%;
+}
+
+@media (max-width: 1290px) {
+.item__image {
+    height: 284px;
+    object-fit: contain;
+    margin-bottom: 100px;
+    margin-left: 10%;
+}
+}
+
+@media (max-width: 940px) {
+    .item__image {
+display: none !important;
+    }
 }

@@ -3,3 +3,9 @@
     gap: 20px;
     padding-top: 1.5px;
 }
+
+@media (max-width: 1260px) {
+    .location__list-social { 
+        justify-content: center;
+    }
+}

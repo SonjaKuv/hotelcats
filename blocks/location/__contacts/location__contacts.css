@@ -1,3 +1,9 @@
 .location__contacts {
-    padding: 61px 0 64.5px 198px;
+    padding: 61px 0 64.5px 14.5%;
+}
+
+@media (max-width: 1260px) {
+    .location__contacts {
+        padding: 61px 0 64.5px;
+    }
 }

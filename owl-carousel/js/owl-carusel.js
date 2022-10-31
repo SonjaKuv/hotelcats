@@ -26,13 +26,15 @@ $('.owl-carousel-reviews').owlCarousel({
     items: 3,
     responsive:{
         0:{
-            items:2.5
+            items:1,
+            stagePadding: 0,
         },
         600:{
-            items:2.5
+            items:2,
+            stagePadding: 50,
         },
         1000:{
-            items:2.5
+            items:2
         }
     }
 })

@@ -17,6 +17,13 @@
     bottom: -22px;
 }
 
+@media (max-width: 940px) {
+    .owl-theme .owl-nav {
+position: static;
+margin-right: 25px;
+    }
+}
+
 .owl-theme .owl-nav [class*=owl-]:hover {
     background: none;
 }

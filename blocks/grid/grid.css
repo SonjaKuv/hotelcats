@@ -2,6 +2,18 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px 30px;
-    padding: 61px 98px 0;
+    padding: 61px 7.17% 0;
     position: relative;
+}
+@media (max-width: 1000px) {
+    .grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 839px) {
+    .grid {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
 }

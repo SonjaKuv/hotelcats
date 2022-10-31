@@ -1,9 +1,9 @@
 .reasons__paw {
     background-image: url(../../../images/paw.svg);
-    width: 337px;
+    width: 326px;
     height: 414px;
     background-repeat: no-repeat;
     position: absolute;
-    right: 12px;
+    right: 0px;
     top: 550px;
 }

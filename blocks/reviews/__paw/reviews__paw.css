@@ -1,9 +1,9 @@
 .reviews__paw {
-background-image: url(../../../images/paw-2.svg);
-width: 337px;
-height: 414px;
-background-repeat: no-repeat;
-position: absolute;
-right: -25px;
-top: 2158px;
+    background-image: url(../../../images/paw-2.svg);
+    width: 311px;
+    height: 403px;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: -25px;
+    top: -12px;
 }

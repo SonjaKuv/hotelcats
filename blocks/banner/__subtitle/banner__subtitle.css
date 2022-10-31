@@ -5,3 +5,9 @@
     line-height: 24px;
     margin: 0 0 32px;
 }
+
+@media (max-width: 900px) {
+    .banner__subtitle {
+max-width: 300px;
+    }
+}

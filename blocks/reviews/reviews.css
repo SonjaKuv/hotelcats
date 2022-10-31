@@ -1,4 +1,5 @@
 .reviews {
+    position: relative;
     text-align: center;
     padding: 133px 0 143px;
 }

@@ -3,4 +3,11 @@
     max-width: 1366px;
     height: auto;
     padding: 11% 14.49% 11.25%;
+    background-position: center
+}
+
+@media (max-width: 623px) {
+    .banner {
+        background-position: unset;
+    } 
 }
