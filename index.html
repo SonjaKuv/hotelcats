@@ -35,7 +35,7 @@
             <p class="banner__city">Санкт-Петербург</p>
             <h1 class="title banner__title">Котейка</h1>
             <p class="banner__subtitle">Уютная гостиница для котов и кошек</p>
-            <button type="button" class="text banner__button">Забронировать<img class="banner__button-icon"
+            <button type="button" class="text reserve-button banner__button">Забронировать<img class="reserve-button__icon banner__button-icon"
                     src="images/paw-button.svg" alt="Иконка кнопки"></button>
         </section>
         <section class="reasons">
@@ -92,8 +92,8 @@
                             <li class="text item__list-element">Размеры (ШхГхВ) — 90х100х180 см</li>
                             <li class="text item__list-element">Цена за сутки: 200₽</li>
                         </ul>
-                        <button type="button" class="text banner__button">Забронировать<img class="banner__button-icon"
-                                src="images/paw-button.svg" alt="Иконка кнопки"></button>
+                        <button type="button" class="text reserve-button item__button">Забронировать<img class="reserve-button__icon item__button-icon"
+                                src="images/paw-b.svg" alt="Иконка кнопки"></button>
                     </div>
                 </div>
                 <div class="item"><img class="item__image" src="images/comfort.png" alt="Номер Комфорт">
@@ -104,7 +104,7 @@
                             <li class="text item__list-element">Размеры (ШхГхВ) - 100х125х180 см</li>
                             <li class="text item__list-element">Цена за сутки: 250₽</li>
                         </ul>
-                        <button type="button" class="text banner__button">Забронировать<img class="banner__button-icon"
+                        <button type="button" class="text reserve-button banner__button">Забронировать<img class="banner__button-icon"
                                 src="images/paw-button.svg" alt="Иконка кнопки"></button>
                     </div>
                 </div>
@@ -116,7 +116,7 @@
                             <li class="text item__list-element">Размеры (ШхГхВ) - 125х125х180 см</li>
                             <li class="text item__list-element">Цена за сутки: 350₽</li>
                         </ul>
-                        <button type="button" class="text banner__button">Забронировать<img class="banner__button-icon"
+                        <button type="button" class="text reserve-button item__button">Забронировать<img class="banner__button-icon"
                                 src="images/paw-button.svg" alt="Иконка кнопки"></button>
                     </div>
                 </div>
@@ -129,10 +129,11 @@
         <section class="reviews">
             <div class="reviews__paw"></div>
             <h2 class="title reviews__title">Отзывы</h2>
+            <div class="owl-wrapper">
             <div class="owl-carousel owl-carousel-reviews owl-theme">
                 <div class="item reviews__item">
                     <img src="images/“.png" alt="quote" class="item__quote">
-                    <p class="item__text">Первый раз пришлось оставить нашего котика
+                    <p class="text item__text">Первый раз пришлось оставить нашего котика
                         в гостинице, очень переживали. Администратор Мария каждый день высылала нам фото нашего питомца,
                         рассказывала, как он себя чувствует.
                         И мы и котик остались очень довольны!</p>
@@ -141,7 +142,7 @@
                 </div>
                 <div class="item reviews__item">
                     <img src="images/“.png" alt="quote" class="item__quote">
-                    <p class="item__text">Гостиницу для питомцев нам посоветовали друзья. Они всегда оставляют здесь
+                    <p class="text item__text">Гостиницу для питомцев нам посоветовали друзья. Они всегда оставляют здесь
                         своего кота, когда уезжают. В “Котейке” очень хорошо заботятся о питомцах, в гостинице очень
                         чисто. Всем рекомендую! Будем обращаться еще.</p>
                     <p class="item__person">Екатерина Минаева</p>
@@ -149,13 +150,14 @@
                 </div>
                 <div class="item reviews__item">
                     <img src="images/“.png" alt="quote" class="item__quote">
-                    <p class="item__text">Мой кот — настоящая привереда, угодить ему сложно. У меня были особые
+                    <p class="text item__text">Мой кот — настоящая привереда, угодить ему сложно. У меня были особые
                         требования к уходу за ним, и “Котейка” отлично справились. Я часто наблюдал по видео за питомцем
                         со своего телефона, это очень удобно. </p>
                     <p class="item__person">Павел Нечаев</p>
                     <p class="item__date">2 августа, 2019</p>
                 </div>
             </div>
+        </div>
             <div class="slider_nav">
                 <img class="reviews-next" src='images/arrow-left.png'>
                 <img class="reviews-prev" src='images/arrow-right.png'>
@@ -179,14 +181,16 @@
                         <p class="text location__list-subtitle">8 (800) 333-55-99</p>
                     </li>
                     <li>
-                        <p class="text location__list-title">Email</p>
+                        <p class="text location__list-title">E-mail</p>
                         <p class="text location__list-subtitle">info@cat-hotel.ru</p>
                     </li>
                     <li>
                         <p class="text location__list-title">Социальные сети</p>
-                        <a href="#" class=""><img src="images/fb.svg" alt="Facebook" class=""></a>
-                        <a href="#" class=""><img src="images/insta.svg" alt="Instagram" class=""></a>
-                        <a href="#" class=""><img src="images/vk.svg" alt="VK" class=""></a>
+                        <div class="location__list-social">
+                        <a href="#"><img src="images/fb.svg" alt="Facebook" class=""></a>
+                        <a href="#"><img src="images/insta.svg" alt="Instagram" class=""></a>
+                        <a href="#"><img src="images/vk.svg" alt="VK" class=""></a>
+                    </div>
                     </li>
                 </ul>
             </div>

@@ -17,19 +17,22 @@ $('.owl-carousel-rooms').owlCarousel({
 })
 
 $('.owl-carousel-reviews').owlCarousel({
-    loop:true,
+    center: true,
+    stagePadding: 100,
+    loop:false,
     margin:10,
     nav:true,
     navText: [$('.reviews-next'),$('.reviews-prev')],
+    items: 3,
     responsive:{
         0:{
-            items:2.2
+            items:2.5
         },
         600:{
-            items:2.2
+            items:2.5
         },
         1000:{
-            items:2.2
+            items:2.5
         }
     }
 })

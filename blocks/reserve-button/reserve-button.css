@@ -1,0 +1,17 @@
+.reserve-button {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        background: #FFFEFD;
+        box-shadow: 0px 5px 25px rgb(26 33 47 / 10%);
+        border-radius: 25px;
+        border: none;
+        padding: 7px 7px 7px 30px;
+        cursor: pointer;
+        opacity: 1;
+        transition: opacity .3s ease-in-out;
+    }
+    
+    .reserve-button:hover {
+        opacity: 0.6;
+    }  

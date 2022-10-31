@@ -1,0 +1,9 @@
+.item__date {
+    grid-area: date;
+    margin-top: 17px;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+color: #848484;
+justify-self: end;
+}

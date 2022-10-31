@@ -1,3 +1,5 @@
 .item__quote {
-    width: 27px !important;
+    width: 21px !important;
+    grid-area: img;
+    margin-top: 3px;
 }

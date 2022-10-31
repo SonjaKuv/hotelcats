@@ -1,0 +1,8 @@
+.item__person {
+    grid-area: person;
+    margin-top: 16px;
+    font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+color: #848484;
+}
