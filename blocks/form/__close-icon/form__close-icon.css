@@ -1,0 +1,18 @@
+.form__close-icon {
+    background-image: url(../../../images/Vector\ 14.png);
+    background-color: rgba(0, 0, 0, 0);
+    grid-area: close;
+    transition: opacity 0.3s ease;
+    width: 16px;
+    height: 16px;
+    background-size: contain;
+    border: none;
+    margin: 0 0 0 14px;
+    justify-self: start;
+    align-self: end;
+    cursor: pointer;
+  }
+  
+  .form__close-icon:hover {
+    opacity: 0.6;
+  }

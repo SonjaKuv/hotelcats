@@ -1,0 +1,12 @@
+.form__title {
+  font-size: 28px;
+  line-height: 33px;
+    grid-area: title;
+  }
+  
+  @media (max-width: 769px) {
+    .form__title {
+      font-size: 18px;
+      line-height: 22px;
+    }
+  }

@@ -1,0 +1,29 @@
+.form {
+  position: relative;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    background: #FFFEFD;
+    box-shadow: 0px 0px 25px rgba(153, 153, 153, 0.25);
+    border-radius: 10px;
+    max-width: 570px;
+    grid-area: form;
+    display: grid;
+    grid-template-areas:
+      ". . close"
+      ". title ."
+      ". fieldset ."
+      ". button ."
+      ". . .";
+    grid-template-rows: 70px 69px auto 50px 70px;
+    grid-template-columns: 70px 430px 70px;
+  }
+  
+  @media (max-width: 769px) {
+    .form {
+      max-width: 282px;
+      align-self: baseline;
+      grid-template-rows: 25px 97px 1fr 61px 25px;
+      grid-template-columns: auto 238px auto;
+    }
+  }

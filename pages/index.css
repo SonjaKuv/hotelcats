@@ -65,3 +65,17 @@
 
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__confident/footer__confident.css');
+
+@import url('../blocks/popup/popup.css');
+@import url('../blocks/popup/_opened/popup_opened.css');
+@import url('../blocks/popup-container/popup-container.css');
+
+@import url('../blocks/form/form.css');
+@import url('../blocks/form/__paw/form__paw.css');
+@import url('../blocks/form/__close-icon/form__close-icon.css');
+@import url('../blocks/form/__title/form__title.css');
+@import url('../blocks/form/__input-container/form__input-container.css');
+@import url('../blocks/form/__input/form__input.css');
+@import url('../blocks/form/__date-container/form__date-container.css');
+@import url('../blocks/form/__input/_value/form__input_value_date.css');
+@import url('../blocks/form/__button/form__button.css');

@@ -1,0 +1,9 @@
+.form__paw {
+    background-image: url(../../../images/form-paw.png);
+    width: 137px;
+    height: 127px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -15px;
+    top: -20px;
+}
